@@ -1,136 +1,116 @@
-Body {
+<head>
+<meta charset="UTF-8">
 
-  Font-family: Arial, sans-serif;
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  Margin: 0;
+ <title>WELCOME TO MY WEBSITE</title>
 
-  Padding: 0;
+ <link rel="stylesheet" href="styles.css">
 
-  Overflow-x: hidden; /* Prevent horizontal scrolling */
+<style>
+body {
+
+ font-family: Arial, sans-serif;
+
+ color: #f5f5dc;
+
+ background-color: #f5f5dc;
+
+ margin: 0;
+
+ padding: 0;
+
+ line-height: 1.6;
+
+}
+nav a:hover {
+
+ text-decoration: underline;
+
+}
+</style>
+
+<style>
+main {
+
+ padding: 20px;
+
+ max-width: 800px;
+
+ margin: 0 auto;
 
 }
 
+main img {
 
+ max-width: 100%;
 
-/* Hide the checkbox */
+ height: auto;
 
-.nav-toggle {
+ display: block;
 
-  Display: none;
+ margin: 20px 0;
+
+}
+</style>
+
+<style>
+footer {
+
+ background-color: #f5f5dc;
+
+ color: Beige;
+
+ text-align: center;
+
+ padding: 10px;
+
+ position: fixed;
+
+ bottom: 0;
+
+ width: 100%;
+
+}
+</style>
+
+<style>
+p {
+
+ font-size: 1.1em;
 
 }
 
+a {
 
+ color: #4CAF50;
 
-/* Button to open/close the navigation bar */
-
-.nav-btn {
-
-  Font-size: 20px;
-
-  Cursor: pointer;
-
-  Padding: 10px 20px;
-
-  Background-color: #333;
-
-  Color: white;
-
-  Border: none;
-
-  Position: fixed;
-
-  Top: 20px;
-
-  Left: 20px;
-
-  z-index: 1000;
+ text-decoration: none;
 
 }
 
+a:hover {
 
-
-/* Sliding navigation bar styles */
-
-.sidenav {
-
-  Height: 100%; /* Full height */
-
-  Width: 250px; /* Full width when open */
-
-  Position: fixed; /* Stay in place */
-
-  Top: 0;
-
-  Left: -250px; /* Initially hidden */
-
-  Background-color: #111; /* Black background */
-
-  Overflow-x: hidden; /* Disable horizontal scroll */
-
-  Transition: 0.5s; /* Smooth transition */
-
-  Padding-top: 60px; /* Add padding at the top */
+ text-decoration: underline;
 
 }
+</style>
 
+<style>
+img {
 
+ border: 5px solid #4CAF50;
 
-.sidenav a {
-
-  Padding: 10px 20px;
-
-  Text-decoration: none;
-
-  Font-size: 18px;
-
-  Color: white;
-
-  Display: block;
-
-  Transition: 0.3s;
+ border-radius: 10px;
 
 }
+<style>
+main a[href^="mailto:"] {
 
+ color: #ff5722;
 
-
-.sidenav a:hover {
-
-  Color: #f1f1f1;
-
-}
-
-
-
-/* When the checkbox is checked, show the navigation bar */
-
-.nav-toggle:checked ~ .sidenav {
-
-  Left: 0;
+ font-weight: bold;
 
 }
-
-
-
-/* Push content to the right when the navigation bar is open */
-
-.nav-toggle:checked ~ .content {
-
-  Margin-left: 250px;
-
-  Transition: margin-left 0.5s;
-
-}
-
-
-
-/* Main content styles */
-
-.content {
-
-  Padding: 20px;
-
-  Transition: margin-left 0.5s;
-
-}
-
+</style>
+</head>
