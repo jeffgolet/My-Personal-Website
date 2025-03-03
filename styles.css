@@ -1,76 +1,136 @@
+Body {
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Personal Website</title>
-  <link rel="stylesheet" href="css/style.css">
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
+  Font-family: Arial, sans-serif;
+
+  Margin: 0;
+
+  Padding: 0;
+
+  Overflow-x: hidden; /* Prevent horizontal scrolling */
+
 }
 
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #333;
-  padding: 10px 20px;
+
+
+/* Hide the checkbox */
+
+.nav-toggle {
+
+  Display: none;
+
 }
 
-.navbar .logo {
-  color: white;
-  font-size: 24px;
-  font-weight: bold;
+
+
+/* Button to open/close the navigation bar */
+
+.nav-btn {
+
+  Font-size: 20px;
+
+  Cursor: pointer;
+
+  Padding: 10px 20px;
+
+  Background-color: #333;
+
+  Color: white;
+
+  Border: none;
+
+  Position: fixed;
+
+  Top: 20px;
+
+  Left: 20px;
+
+  z-index: 1000;
+
 }
 
-.nav-links {
-  list-style: none;
-  display: flex;
-  margin: 0;
-  padding: 0;
+
+
+/* Sliding navigation bar styles */
+
+.sidenav {
+
+  Height: 100%; /* Full height */
+
+  Width: 250px; /* Full width when open */
+
+  Position: fixed; /* Stay in place */
+
+  Top: 0;
+
+  Left: -250px; /* Initially hidden */
+
+  Background-color: #111; /* Black background */
+
+  Overflow-x: hidden; /* Disable horizontal scroll */
+
+  Transition: 0.5s; /* Smooth transition */
+
+  Padding-top: 60px; /* Add padding at the top */
+
 }
 
-.nav-links li {
-  margin: 0 15px;
+
+
+.sidenav a {
+
+  Padding: 10px 20px;
+
+  Text-decoration: none;
+
+  Font-size: 18px;
+
+  Color: white;
+
+  Display: block;
+
+  Transition: 0.3s;
+
 }
 
-.nav-links a {
-  text-decoration: none;
-  color: white;
-  font-size: 18px;
-  transition: color 0.3s;
+
+
+.sidenav a:hover {
+
+  Color: #f1f1f1;
+
 }
 
-.nav-links a:hover {
-  color: #00bcd4;
+
+
+/* When the checkbox is checked, show the navigation bar */
+
+.nav-toggle:checked ~ .sidenav {
+
+  Left: 0;
+
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-  .nav-links {
-    flex-direction: column;
-    display: none;
-  }
 
-  .nav-links.active {
-    display: flex;
-  }
+
+/* Push content to the right when the navigation bar is open */
+
+.nav-toggle:checked ~ .content {
+
+  Margin-left: 250px;
+
+  Transition: margin-left 0.5s;
+
 }
-</head>
-<body>
-  <header>
-  
-  </header>
 
-  <main>
-    <section>
-      <h1>Welcome to My Personal Website</h1>
-      <p>Hi! I'm [Your Name]. This is my personal website where I share my professional background, hobbies, and topics I love!</p>
-    </section>
-  </main>
 
-  <footer>
-    <p>&copy; 2023 [Your Name]. All rights reserved.</p>
-  </footer>
-</body>
-</html>
+
+/* Main content styles */
+
+.content {
+
+  Padding: 20px;
+
+  Transition: margin-left 0.5s;
+
+}
+
