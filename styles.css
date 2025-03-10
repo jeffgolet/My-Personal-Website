@@ -18,9 +18,9 @@ body {
 
  background-color: #f5f5dc;
 
- margin: 20px 0;
+ margin: 20px 20px;
 
- padding: 0;
+ padding: 20px;
 
  line-height: 1.6;
 
@@ -34,7 +34,8 @@ nav a:hover {
 
 <style>
 main {
-
+ background-color: #f5f5dc;
+ 
  padding: 20px;
 
  max-width: 800px;
@@ -69,7 +70,7 @@ footer {
 
  position: fixed;
 
- bottom: 0;
+ bottom: 20px;
 
  width: 100%;
 
