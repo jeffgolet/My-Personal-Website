@@ -23,6 +23,9 @@ body {
  padding: 20px;
 
  line-height: 1.6;
+</style>
+ 
+ <style>
 
 }
 nav a:hover {
@@ -53,7 +56,7 @@ main img {
  display: block;
 
  margin: 20px 20px;
-
+text-align: center;
 }
 </style>
 
