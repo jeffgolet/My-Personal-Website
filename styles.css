@@ -11,7 +11,10 @@ navbar-brand{
 }
 <style>
 p { text-align: justify;
- 
+    font-size: 1.5rem;
+    margin: 1rem 0
+   padding: 1rem;
+    /* text-align: justify; */
   }
 body {
 
@@ -46,7 +49,7 @@ main {
  
  padding: 20px;
  
-text-align; center
+text-align; center;
  
  max-width: 800px;
 
