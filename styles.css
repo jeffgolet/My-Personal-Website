@@ -11,17 +11,17 @@ navbar-brand{
 }
 <style>
 p { text-align: justify;
-    font-size: 1.5rem;
-    margin: 1rem 0
-   padding: 1rem;
-    /* text-align: justify; */
+    font-size: 1.5em;
+    margin: 1em 0
+   padding: 1em;
+   text-align: justify;
   }
 </style>
 
 <style>
 body {
 
- font: big shoulders;
+ font: big-shoulders;
 
  color: #333;
 
