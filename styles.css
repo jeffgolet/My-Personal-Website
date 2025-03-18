@@ -10,11 +10,11 @@ navbar-brand{
  text-align; center
 }
 <style>
-p { text-align: justify;
+p { 
     font-size: 1.5em;
     margin: 1em 0
    padding: 1em;
-   text-align: justify;
+   text-align: center;
   }
 </style>
 
