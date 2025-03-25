@@ -1,15 +1,5 @@
-<head>
-<meta charset="UTF-8">
 
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
- <title>WELCOME TO MY WEBSITE</title>
-
- <link rel="stylesheet" href="styles.css">
-navbar-brand{
- text-align; center
-}
-<style>
 p { 
     font-size: 1.5em;
     margin: 1em 0
@@ -17,7 +7,17 @@ p {
    text-align: center;
   }
 </style>
-
+a{
+ border:solid;
+ background-color:f5f5dc;
+ margin:300px
+ padding:200px;
+ font-family: Times New Roman;
+ text-aling:center;
+}
+a:hover{
+ color:#000;
+}
 <style>
 body {
 
