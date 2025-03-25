@@ -1,13 +1,12 @@
 
-
+<head>
 p { 
     font-size: 1.5em;
     margin: 1em 0
    padding: 1em;
    text-align: center;
   }
-</style>
-<style>
+
 a{
  border:solid;
  background-color:f5f5dc;
@@ -16,13 +15,11 @@ a{
  font-family: Times New Roman;
  text-aling:center;
 }
-</style>
-<style>
+
 a:hover{
  color:#000;
 }
-</style>
-<style>
+
 body {
 
  font: big-shoulders;
@@ -38,19 +35,12 @@ body {
  padding: 20px;
 
  line-height: 1.6;
-</style>
- 
- <style>
+ }
 
-}
 nav a:hover {
-
  text-decoration: underline;
-
 }
-</style>
 
-<style>
 main {
  background-color: #f5f5dc;
  
@@ -75,9 +65,8 @@ main img {
  margin: 20px 20px;
 text-align: center;
 }
-</style>
 
-<style>
+
 footer {
 
  background-color: #f5f5dc;
@@ -95,31 +84,11 @@ footer {
  width: 100%;
 
 }
-</style>
 
-<style>
-p {
 
- font-size: 1.1em;
 
-}
 
-a {
 
- color: #4CAF50;
-
- text-decoration: none;
-
-}
-
-a:hover {
-
- text-decoration: underline;
-
-}
-</style>
-
-<style>
 img {
  height: 150px
   witdth: 100px
@@ -128,8 +97,8 @@ img {
  border-radius: 10px;
 
 }
-</style>
-<style>
+
+
 main a[href^="mailto:"] {
 
  color: #ff5722;
@@ -137,5 +106,5 @@ main a[href^="mailto:"] {
  font-weight: bold;
 
 }
-</style>
+
 </head>
