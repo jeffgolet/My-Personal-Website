@@ -7,6 +7,7 @@ p {
    text-align: center;
   }
 </style>
+<style>
 a{
  border:solid;
  background-color:f5f5dc;
@@ -15,9 +16,12 @@ a{
  font-family: Times New Roman;
  text-aling:center;
 }
+</style>
+<style>
 a:hover{
  color:#000;
 }
+</style>
 <style>
 body {
 
