@@ -1,104 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact Me</title>
-<!-- Bootstrap CSS -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | PrimePrint Solutions</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-
-<header>
- <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-
- <div class="container">
-
- <a class="navbar-brand" href="index.html">My Website</a>
-
- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-
- <span class="navbar-toggler-icon"></span>
-
- </button>
-
- <div class="collapse navbar-collapse" id="navbarNav">
-
- <ul class="navbar-nav">
-
- <li class="nav-item">
-
- <a class="nav-link" href="index.html">Home</a>
-
- </li>
-
- <li class="nav-item">
-
- <a class="nav-link" href="hobbies.html">Hobbies and Social life</a>
-
- </li>
-<li class="nav-item">
-
- <a class="nav-link" href="topics.html">Topic of Intrest</a>
-<li class="nav-item">
-
- <a class="nav-link" href="professional.html">Professional Intrest</a>
- </li>
- <li class="nav-item">
-
- <a class="nav-link" href="contact.html">Contact me</a>
-
- </li>
- </ul>
-
- </div>
-
- </div>
-
- </nav>
- </li>
-
- </ul>
-
- </div>
-
- </div>
-
- </nav>
-</header>
-
-
-  <main>
-    <section class="contact">
-      <h1>Get in Touch</h1>
-      <div class="contact-info">
-        <div class="info-item">
-          <h3>Email</h3>
-          <p>jeffgolet@example.com</p>
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="PrimePrint Solutions">
         </div>
-        <div class="info-item">
-          <h3>Phone</h3>
-          <p>+267 74697477</p>
-          <p>+267 78250891</p>
-        </div>
-        <div class="info-item">
-          <h3>Social Media</h3>
-          <div class="social-links">
-            <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
-            <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
-            <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
-          </div>
-        </div>
-      </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="page-header">
+        <h1>Contact Us</h1>
+        <p>We're here to help with all your printing needs</p>
     </section>
-  </main>
 
-  <footer>
-    <p>&copy; 2023 [Your Name]. All rights reserved.</p>
-  </footer>
+    <section class="contact-content">
+        <div class="contact-form">
+            <h2>Get a Free Quote</h2>
+            <form action="submit-form.php" method="POST">
+                <div class="form-group">
+                    <label for="name">Name*</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="company">Company</label>
+                    <input type="text" id="company" name="company">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email*</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+                <div class="form-group">
+                    <label for="product">Product/Service Interested In</label>
+                    <select id="product" name="product">
+                        <option value="">Select an option</option>
+                        <option value="paper">Paper Products</option>
+                        <option value="textiles">Textiles</option>
+                        <option value="promotional">Promotional Items</option>
+                        <option value="signage">Signage</option>
+                        <option value="packaging">Packaging</option>
+                        <option value="design">Design Services</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="message">Project Details*</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="file">Upload Files (Optional)</label>
+                    <input type="file" id="file" name="file">
+                </div>
+                <button type="submit" class="cta-button">Submit Request</button>
+            </form>
+        </div>
 
-  <script src="js/script.js"></script>
+        <div class="contact-info">
+            <h2>Contact Information</h2>
+            <div class="info-card">
+                <h3>Address</h3>
+                <p>123 Print Street<br>
+                Printville, PV 12345</p>
+            </div>
+            <div class="info-card">
+                <h3>Phone</h3>
+                <p>Main: (555) 123-4567<br>
+                Sales: (555) 123-4568<br>
+                Support: (555) 123-4569</p>
+            </div>
+            <div class="info-card">
+                <h3>Email</h3>
+                <p>General: info@primeprintsolutions.com<br>
+                Sales: sales@primeprintsolutions.com<br>
+                Support: support@primeprintsolutions.com</p>
+            </div>
+            <div class="info-card">
+                <h3>Hours</h3>
+                <p>Monday-Friday: 8:00 AM - 6:00 PM<br>
+                Saturday: 9:00 AM - 2:00 PM<br>
+                Sunday: Closed</p>
+            </div>
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=..." width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <!-- Same footer as homepage -->
+    </footer>
 </body>
-</html>
+  </html>
