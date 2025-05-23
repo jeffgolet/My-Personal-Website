@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Portfolio | PrimePrint Solutions</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="PrimePrint Solutions">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="portfolio.html" class="active">Portfolio</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="page-header">
+        <h1>Our Portfolio</h1>
+        <p>See samples of our work and get inspired for your next project</p>
+    </section>
+
+    <section class="portfolio-content">
+        <div class="portfolio-filter">
+            <button class="filter-button active" data-filter="all">All Work</button>
+            <button class="filter-button" data-filter="paper">Paper Products</button>
+            <button class="filter-button" data-filter="textiles">Textiles</button>
+            <button class="filter-button" data-filter="promotional">Promotional</button>
+            <button class="filter-button" data-filter="signage">Signage</button>
+            <button class="filter-button" data-filter="packaging">Packaging</button>
+        </div>
+
+        <div class="portfolio-grid">
+            <div class="portfolio-item" data-category="paper">
+                <img src="images/portfolio-business-cards.jpg" alt="Business Cards">
+                <div class="portfolio-overlay">
+                    <h3>Premium Business Cards</h3>
+                    <p>Spot UV coating on premium card stock</p>
+                </div>
+            </div>
+            <div class="portfolio-item" data-category="paper">
+                <img src="images/portfolio-brochures.jpg" alt="Brochures">
+                <div class="portfolio-overlay">
+                    <h3>Tri-Fold Brochures</h3>
+                    <p>Full color printing with custom die-cut</p>
+                </div>
+            </div>
+            <div class="portfolio-item" data-category="textiles">
+                <img src="images/portfolio-tshirts.jpg" alt="T-Shirts">
+                <div class="portfolio-overlay">
+                    <h3>Event T-Shirts</h3>
+                    <p>Screen printed apparel for corporate event</p>
+                </div>
+            </div>
+            <div class="portfolio-item" data-category="promotional">
+                <img src="images/portfolio-mugs.jpg" alt="Promotional Mugs">
+                <div class="portfolio-overlay">
+                    <h3>Branded Mugs</h3>
+                    <p>Full color sublimation printing</p>
+                </div>
+            </div>
+            <div class="portfolio-item" data-category="signage">
+                <img src="images/portfolio-banner.jpg" alt="Retractable Banner">
+                <div class="portfolio-overlay">
+                    <h3>Retractable Banner</h3>
+                    <p>Trade show display with stand</p>
+                </div>
+            </div>
+            <div class="portfolio-item" data-category="signage">
+                <img src="images/portfolio-landstick.jpg" alt="Land-Stick Flags">
+                <div class="portfolio-overlay">
+                    <h3>Land-Stick Advertising Flags</h3>
+                    <p>Outdoor promotional flags</p>
+                </div>
+            </div>
+            <div class="portfolio-item" data-category="packaging">
+                <img src="images/portfolio-boxes.jpg" alt="Custom Boxes">
+                <div class="portfolio-overlay">
+                    <h3>Product Packaging</h3>
+                    <p>Custom printed boxes with foil stamping</p>
+                </div>
+            </div>
+            <div class="portfolio-item" data-category="textiles">
+                <img src="images/portfolio-totes.jpg" alt="Tote Bags">
+                <div class="portfolio-overlay">
+                    <h3>Promotional Tote Bags</h3>
+                    <p>Canvas bags with full color imprint</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="testimonials">
+            <h2>What Our Clients Say</h2>
+            <div class="testimonial-slider">
+                <div class="testimonial">
+                    <p>"PrimePrint delivered exceptional quality business cards faster than promised. Their attention to detail is impressive!"</p>
+                    <div class="client-info">
+                        <img src="images/client1.jpg" alt="Sarah Johnson">
+                        <h4>Sarah Johnson</h4>
+                        <p>Marketing Director, BrightStar Corp</p>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <p>"We've used PrimePrint for all our event merchandise for 3 years running. Consistent quality and great customer service."</p>
+                    <div class="client-info">
+                        <img src="images/client2.jpg" alt="Michael Chen">
+                        <h4>Michael Chen</h4>
+                        <p>Events Coordinator, TechSummit</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <!-- Same footer as homepage -->
+    </footer>
+
+    <script src="portfolio-filter.js"></script>
+</body>
+</html>
